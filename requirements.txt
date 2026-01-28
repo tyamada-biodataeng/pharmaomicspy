@@ -3,6 +3,7 @@ ruff
 mypy
 tox
 sphinx
+sphinx_rtd_theme
 pytest
 pytest-snapshot
 numpy
@@ -19,7 +20,7 @@ ibis-framework[pandas, polars]
 scikit-learn
 rdkit
 anndata
-scanpy
+scanpy[leiden]
 jupyterlab
 line_profiler
 memory_profiler
